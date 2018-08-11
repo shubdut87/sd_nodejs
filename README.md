@@ -1,6 +1,3 @@
-# sd_nodejs
-
-
 <h1 align="center">
   <br>
   <a href="https://github.com/shubdut87/sd_nodejs.git"></a>
@@ -14,7 +11,7 @@
 
 ## Installation
 
-To install this application, you'll need [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To install this application, you'll need [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
 
 #### Source
 
