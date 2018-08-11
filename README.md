@@ -23,3 +23,14 @@ $ git clone https://github.com/shubdut87/sd_nodejs.git
 
 # Install dependencies
 $ npm install
+
+
+
+#### Note:
+```bash
+$ git init
+$ git add .
+$ git commit -m "<Comments>"
+$ git remote add origin "<Origin Name>"
+$ git remote -v
+$ git push origin master
