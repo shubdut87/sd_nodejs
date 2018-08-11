@@ -26,8 +26,8 @@ $ npm install
 
 
 
-#### Note:
-```bash
+
+# Push to repository
 $ git init
 $ git add .
 $ git commit -m "<Comments>"
