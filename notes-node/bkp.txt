@@ -1,0 +1,54 @@
+console.log('Startng app.js ...');
+
+const fs = require('fs');
+const os = require('os');
+const _ = require('lodash');
+
+const notes = require('./notes.js');
+
+// console.log(_.isString(true));
+// console.log(_.isString('Shubhra'));
+
+var filteredArray = _.uniq(['Shubhra', 1, 'Shubhra', 1, 2, 3, 4, 5]);
+console.log(filteredArray);
+
+// var res = notes.addNote();
+// console.log(res);
+//
+// var add = notes.add(2,3);
+// console.log('Result: '+add);
+
+// var user = os.userInfo();
+//
+// //console.log(user);
+//
+// fs.appendFile('greetings.txt', `Hello ${user.username}! You are ${notes.age}.`, function(err){
+//   if(err){
+//     console.log('Unable to write to file');
+//   }
+// });
+
+----note.js-----
+
+// module.exports.addNote = () => {
+//   console.log('addNote');
+//   return 'New note';
+// };
+
+// module.exports.add = (a, b) => {
+//   console.log('add');
+//   return a+b;
+// };
+
+
+
+var geoCodKeys = [
+                   'AIzaSyD-UkgldX1MuuqjIy0odgbvqv-b6c_1HGE',
+                   'AIzaSyAZCx4x-9t-vpvnbVHMsD84T6e7pYPOln8',
+                   'AIzaSyAd6SQ6zU4IXYDaA_hU3dsKAlhq3eqEYuM',
+                   'AIzaSyCLhJ_X1ExSyt4BV4GaRG5etRd4jKh8Gqg',
+                   'AIzaSyC84TFfZKJNJDnyle-rmyjCUl7qSKUEkFM'
+               ];
+
+var key = _.random(geoCodKeys);
+
